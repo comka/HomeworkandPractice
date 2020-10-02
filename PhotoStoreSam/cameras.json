@@ -1,0 +1,30 @@
+[
+  {
+    "manufacturer": "Nikon",
+    "model": "D750",
+    "sensorResolution": "24.0Mpx",
+    "wifi": true,
+    "image" : "nikon_d750"
+  },
+  {
+    "manufacturer": "Nikon",
+    "model": "D810",
+    "sensorResolution": "36.0Mpx",
+    "wifi": true,
+    "image" : "nikon_d810"
+  },
+  {
+    "manufacturer": "Canon",
+    "model": "5D Mark III",
+    "sensorResolution": "22.0Mpx",
+    "wifi": false,
+    "image" : "canon_5dmarkiii"
+  },
+  {
+    "manufacturer": "Fujifilm",
+    "model": "X-T10",
+    "sensorResolution": "16.0Mpx",
+    "wifi": false,
+    "image" : "fujifilm_xt10"
+  }
+]
