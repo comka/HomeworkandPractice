@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Xylophone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="JR2-l1-3CD">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXO-sh-55e">
+                                        <rect key="frame" x="10" y="0.0" width="394" height="106.5"/>
+                                        <color key="backgroundColor" red="1" green="0.22097492869999999" blue="0.20855612909999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
+                                        <state key="normal" title="C">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f3Q-OE-HPA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNy-AP-FRO">
+                                        <rect key="frame" x="15" y="118.5" width="384" height="106.5"/>
+                                        <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
+                                        <state key="normal" title="D">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xqM-xf-xSr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="atv-ce-CDu">
+                                        <rect key="frame" x="20" y="237" width="374" height="106.5"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
+                                        <state key="normal" title="E">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mEG-rG-fQ2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXU-XA-Mew">
+                                        <rect key="frame" x="20" y="355.5" width="374" height="107"/>
+                                        <color key="backgroundColor" red="0.2653024122" green="0.68948286800000003" blue="0.2206162404" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
+                                        <state key="normal" title="F">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PZw-lK-KW5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imW-dC-Hph">
+                                        <rect key="frame" x="25" y="474.5" width="364" height="106.5"/>
+                                        <color key="backgroundColor" red="0.21117630870000001" green="0.56031829119999998" blue="0.1693578808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
+                                        <state key="normal" title="G">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Snu-S2-CXz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQu-Ld-hI7">
+                                        <rect key="frame" x="30" y="593" width="354" height="106.5"/>
+                                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
+                                        <state key="normal" title="A">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QGl-wu-1nw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyo-Hn-M7e">
+                                        <rect key="frame" x="35" y="711.5" width="344" height="106.5"/>
+                                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
+                                        <state key="normal" title="B">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bF6-Q9-guw"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="IQu-Ld-hI7" firstAttribute="leading" secondItem="JR2-l1-3CD" secondAttribute="leading" constant="30" id="EXr-sg-mm9"/>
+                                    <constraint firstAttribute="trailing" secondItem="gyo-Hn-M7e" secondAttribute="trailing" constant="35" id="HfC-wa-ujh"/>
+                                    <constraint firstItem="wXO-sh-55e" firstAttribute="leading" secondItem="JR2-l1-3CD" secondAttribute="leading" constant="10" id="ILv-Ya-phT"/>
+                                    <constraint firstItem="atv-ce-CDu" firstAttribute="leading" secondItem="JR2-l1-3CD" secondAttribute="leading" constant="20" id="NCQ-f6-VuJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="KNy-AP-FRO" secondAttribute="trailing" constant="15" id="YQB-1x-k04"/>
+                                    <constraint firstAttribute="trailing" secondItem="imW-dC-Hph" secondAttribute="trailing" constant="25" id="Yp1-gX-R9K"/>
+                                    <constraint firstItem="imW-dC-Hph" firstAttribute="leading" secondItem="JR2-l1-3CD" secondAttribute="leading" constant="25" id="bK4-yY-Hk5"/>
+                                    <constraint firstItem="QXU-XA-Mew" firstAttribute="leading" secondItem="JR2-l1-3CD" secondAttribute="leading" constant="20" id="dhw-Dl-7MR"/>
+                                    <constraint firstAttribute="trailing" secondItem="IQu-Ld-hI7" secondAttribute="trailing" constant="30" id="oER-55-eOK"/>
+                                    <constraint firstItem="gyo-Hn-M7e" firstAttribute="leading" secondItem="JR2-l1-3CD" secondAttribute="leading" constant="35" id="qqm-Wm-r3D"/>
+                                    <constraint firstAttribute="trailing" secondItem="atv-ce-CDu" secondAttribute="trailing" constant="20" id="rSp-k9-hkb"/>
+                                    <constraint firstAttribute="trailing" secondItem="wXO-sh-55e" secondAttribute="trailing" constant="10" id="tao-02-EW8"/>
+                                    <constraint firstAttribute="trailing" secondItem="QXU-XA-Mew" secondAttribute="trailing" constant="20" id="tlE-qR-gm7"/>
+                                    <constraint firstItem="KNy-AP-FRO" firstAttribute="leading" secondItem="JR2-l1-3CD" secondAttribute="leading" constant="15" id="xPD-Jt-QY7"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="JR2-l1-3CD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="40r-ge-SDR"/>
+                            <constraint firstItem="JR2-l1-3CD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6Tp-Zk-IiQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JR2-l1-3CD" secondAttribute="bottom" id="TGL-Hk-U3p"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JR2-l1-3CD" secondAttribute="trailing" id="hxm-Gj-m6z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="100"/>
+        </scene>
+    </scenes>
+</document>
