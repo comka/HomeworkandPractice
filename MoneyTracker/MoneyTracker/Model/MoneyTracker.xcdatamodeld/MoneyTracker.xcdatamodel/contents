@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18G103" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="IncomeCostType" representedClassName="IncomeCostType" syncable="YES" codeGenerationType="class">
+        <attribute name="isCostType" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="relMoneyTracker" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MoneyTracker" inverseName="relIncomeCostType" inverseEntity="MoneyTracker"/>
+    </entity>
+    <entity name="MoneyTracker" representedClassName="MoneyTracker" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="relIncomeCostType" maxCount="1" deletionRule="Nullify" destinationEntity="IncomeCostType" inverseName="relMoneyTracker" inverseEntity="IncomeCostType"/>
+    </entity>
+    <elements>
+        <element name="IncomeCostType" positionX="102.53515625" positionY="82.671875" width="128" height="88"/>
+        <element name="MoneyTracker" positionX="-151.76953125" positionY="-38.21484375" width="128" height="88"/>
+    </elements>
+</model>
